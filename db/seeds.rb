@@ -15,3 +15,13 @@ User.create(:first_name => 'Stefan',
             :last_name => 'Segers',
             :email => 'stefan.segers@khlim.be',
             :password => 'treintrambus')
+
+Student.delete_all
+Student.create(:first_name => 'Jan',
+               :last_name => 'Jansens')
+Student.create(:first_name => 'Jef',
+               :last_name => 'Martens')               
+Student.create(:first_name => 'Joris',
+               :last_name => 'Heselmans')
+Student.create(:first_name => 'Pieter',
+               :last_name => 'Severijns')               
